@@ -1,0 +1,11 @@
+Overview
+Just like a web crawler, in this lab we are given with the task to create a crawler for local directory. The file is found in two ways. First way is finding file by the ‘file name’. Second option is finding file by the content of file.
+
+Option1:
+In the first case, that is when user presses 1. Then it asks user to enter the file name and searches the file with the given file name in local directory. We create an object  of file. After that the directories and files are accessed. After that by recursion, we compare the input file name with the subfile names. If it is present, we tell the user that file has been found.
+
+Option2:
+In the 2nd case, when user presses 2, then it searches wrt conent. Now just like in case 1, a file object is created. After that it checks for files if it ends with the .txt extension, if so then puts the content in file, content is match and if so then it returns path.
+
+Run method:
+Open the project, run the spidercrawler file and provide directory. Press 1 or 2 options for searching.
